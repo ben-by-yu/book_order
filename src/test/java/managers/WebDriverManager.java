@@ -8,6 +8,7 @@ import dataProvider.ConfigFileReader;
 import enums.DriverType;
 
 public class WebDriverManager {
+	
 	private WebDriver driver;
 	private static DriverType driverType;
 	ConfigFileReader configFileReader = new ConfigFileReader();
@@ -25,4 +26,10 @@ public class WebDriverManager {
 		return driver;
 	}
 
+	public WebDriver getDriver() {
+		if(driver == null)
+			driver = createLocalDriver();
+		return driver;
+	}
+	
 }

@@ -1,2 +1,15 @@
-D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\runners\TestRunner.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\cucumber\TestContext.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\pageObjects\AmazonHomePage.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\stepDefinitions\Hooks.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\stepDefinitions\AmazonHomePageSteps.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\enums\DriverType.java
 D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\seleniumTests\E2E_Test.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\stepDefinitions\Steps.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\pageObjects\BasePage.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\runners\TestRunner.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\managers\PageObjectManager.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\pageObjects\SearchResultPage.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\dataProvider\ConfigFileReader.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\stepDefinitions\LogInSteps.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\managers\WebDriverManager.java
+D:\Projects\Java_Project\amazon_test_maven\book_order\book_order\src\test\java\pageObjects\LogInPage.java

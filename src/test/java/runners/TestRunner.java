@@ -8,7 +8,8 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src/test/resources/functionalTests/",
 		glue = {"stepDefinitions"},
-		plugin = {"pretty", "html:D:/cucumber-reports"}
+		format = {"pretty", "html:target/html"},
+		tags = "@AmazonSearch"
 		)
 
 public class TestRunner {

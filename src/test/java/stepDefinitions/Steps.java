@@ -32,37 +32,38 @@ public class Steps {
 	public Steps(TestContext context) {
 		testContext = context;
 		webDriverManager = testContext.getWebDriverManager();
+		pageObjectManager = testContext.getPageObjectManager();
 	}
 	
-	@Given("^user is on amazon home page$")
-	public void user_is_on_amazon_home_page() {
-		System.out.println("This is step 1.");
-		configFileReader = new ConfigFileReader();
-		driver = webDriverManager.createLocalDriver();
-		pageObjectManager = new PageObjectManager(driver);
-		driver.get(configFileReader.getAmazonUrl());
-		amazon_home_page = pageObjectManager.getAmazonHomePage();
-	}
+//	@Given("^user is on amazon home page$")
+//	public void user_is_on_amazon_home_page() {
+//		configFileReader = new ConfigFileReader();
+//		driver = webDriverManager.getDriver();
+////		pageObjectManager = new PageObjectManager(driver);
+//		driver.get(configFileReader.getAmazonUrl());
+//		amazon_home_page = pageObjectManager.getAmazonHomePage();
+//			
+//	}
 	
-	@When("^user searches Fifth Season$") 
-	public void user_searches_fifth_season() {
-		System.out.println("This is step 2.");
-		amazon_home_page.searchBook("Fifth Season");
-	}
-	
-	@Then("^user should see search result$") 
-	public void user_should_see_search_result() {
-		System.out.println("This is step 3.");
-	}
-	
-	@When("^user click order$")
-	public void user_click_order() {
-		log_in_page = amazon_home_page.clickOrder();
-	}
-	
-	@Then("^user should see log in page$")
-	public void user_should_see_log_in_page() {
-		System.out.println("User should see log in page.");
-	}
+//	@When("^user searches Fifth Season$") 
+//	public void user_searches_fifth_season() {
+//		System.out.println("This is step 2.");
+//		amazon_home_page.searchBook("Fifth Season");
+//	}
+//	
+//	@Then("^user should see search result$") 
+//	public void user_should_see_search_result() {
+//		System.out.println("This is step 3.");
+//	}
+//	
+//	@When("^user click order$")
+//	public void user_click_order() {
+//		log_in_page = amazon_home_page.clickOrder();
+//	}
+//	
+//	@Then("^user should see log in page$")
+//	public void user_should_see_log_in_page() {
+//		System.out.println("User should see log in page.");
+//	}
 
 }

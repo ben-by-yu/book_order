@@ -10,8 +10,15 @@ public class Hooks {
 		testContext = context;
 	}
 	
-
+	@Before
+	public void beforeScenario() {
+		System.out.println("This is before hook!");
+	}
 	
-	
+	@After
+	public void afterScenario() {
+		
+		System.out.println("This is after hook!");
+	}
 
 }
